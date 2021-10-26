@@ -25,7 +25,5 @@ jobs:
         with:
           version: latest
           args: release --rm-dist
-        build:
-          main: ./cmd/krakend-config-migrator/main.go
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
