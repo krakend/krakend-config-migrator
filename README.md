@@ -12,8 +12,8 @@ Make sure to review the changes after the migration.
 ## Usage
 Download the binary for your platform or build the source code (see below). From the folder where the binay is, execute it:
 
-	$ ./krakend-updater -h
-	Usage of ./krakend-updater:
+	$ ./krakend-config-migrator -h
+	Usage of ./krakend-config-migrator:
 	  -c int
 	    	concurrency level (default 24)
 	  -m string
@@ -25,7 +25,7 @@ All flags are optional and usually not needed, unless you want to use custom rul
 
 Pass all your configuration folders as arguments. E.g: if you want to migrate 3 different KrakenD projects at once:
 
-	$ ./krakend-updater /path/to/project1 /path/to/project2 /path/to/project3
+	$ ./krakend-config-migrator /path/to/project1 /path/to/project2 /path/to/project3
 
 The passed folder will contain any needed modification to use the latest KrakenD configuration version.
 
@@ -34,9 +34,9 @@ If you need to make modifications to this migration tool:
 
 1- Clone the repo
 
-	git clone git@gitlab.com:devops-faith/migrate-krakend-version.git
+	git clone git@github.com:devopsfaith/krakend-config-migrator.git
 
 2- Modify it and build it:
 
-	cd migrate-krakend-version
-	go build ./cmd/krakend-updater
+	cd krakend-config-migrator
+	go build ./cmd/krakend-config-migrator
