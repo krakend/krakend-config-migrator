@@ -94,6 +94,10 @@ var rules = [][]string{
 	{"Allowlist", "allow"},
 	{"Patterns", "patterns"},
 	{"CacheSize", "cache_size"},
+
+	// rate limiter
+	{"maxRate", "max_rate"},
+	{"clientMaxRate", "client_max_rate"},
 }
 
 var defaultConcurrency = runtime.GOMAXPROCS(-1)
