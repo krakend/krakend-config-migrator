@@ -90,10 +90,9 @@ var rules = [][]string{
 	{"logStatusChange", "log_status_change"},
 
 	// Botdetector
-	{"Denylist", "deny"},
-	{"Allowlist", "allow"},
-	{"Patterns", "patterns"},
-	{"CacheSize", "cache_size"},
+	{"denylist", "deny"},
+	{"allowlist", "allow"},
+	{"cacheSize", "cache_size"},
 
 	// rate limiter
 	{"maxRate", "max_rate"},
