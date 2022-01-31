@@ -36,7 +36,8 @@ var rules = [][]string{
 	{"github_com/devopsfaith/bloomfilter", "auth/revoker"},
 
 	{"github_com/devopsfaith/krakend-botdetector", "security/bot-detector"},
-	{"github_com/devopsfaith/krakend-httpsecure", "security/http"},
+	{"github_com/devopsfaith/krakend-httpsecure", "security/http"}, // Service
+	{"github.com/devopsfaith/krakend-httpsecure", "security/http"}, // Endpoint
 	{"github_com/devopsfaith/krakend-cors", "security/cors"},
 
 	{"github.com/devopsfaith/krakend-cel", "validation/cel"},
