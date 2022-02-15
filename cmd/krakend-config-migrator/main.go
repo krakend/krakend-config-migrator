@@ -98,6 +98,10 @@ var rules = [][]string{
 	// rate limiter
 	{"maxRate", "max_rate"},
 	{"clientMaxRate", "client_max_rate"},
+
+	// Bloomfilter
+	{"HashName", "hash_name"},
+	{"TokenKeys", "token_keys"},
 }
 
 var defaultConcurrency = runtime.GOMAXPROCS(-1)
