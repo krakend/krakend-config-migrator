@@ -59,8 +59,8 @@ var rules = [][]string{
 	{"github_com/devopsfaith/krakend-opencensus", "telemetry/opencensus"},
 
 	{"github.com/devopsfaith/krakend-lua/router", "modifier/lua-endpoint"},
-	{"github.com/devopsfaith/krakend-lua/proxy", "modifier/lua-proxy"},
 	{"github.com/devopsfaith/krakend-lua/proxy/backend", "modifier/lua-backend"},
+	{"github.com/devopsfaith/krakend-lua/proxy", "modifier/lua-proxy"},
 	{"github.com/devopsfaith/krakend-martian", "modifier/martian"},
 
 	// Enterprise
