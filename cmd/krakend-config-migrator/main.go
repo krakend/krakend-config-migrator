@@ -101,6 +101,10 @@ var rules = [][]string{
 	// Bloomfilter
 	{"HashName", "hash_name"},
 	{"TokenKeys", "token_keys"},
+
+	// Upgrade version
+	{`"version": 2`, `"version": 3`},
+	{`"version":2`, `"version": 3`},
 }
 
 var defaultConcurrency = runtime.GOMAXPROCS(-1)
