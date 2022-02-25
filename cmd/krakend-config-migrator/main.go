@@ -102,9 +102,11 @@ var rules = [][]string{
 	{"HashName", "hash_name"},
 	{"TokenKeys", "token_keys"},
 
-	// Upgrade version
-	{`"version": 2`, `"version": 3`},
-	{`"version":2`, `"version": 3`},
+	// Upgrade version and add $schema:
+	{`"version": 2`, `"$id": "https://www.krakend.io/schema/v3.json",
+"version": 3`},
+	{`"version":2`, `"$id": "https://www.krakend.io/schema/v3.json",
+"version": 3`},
 }
 
 var defaultConcurrency = runtime.GOMAXPROCS(-1)
