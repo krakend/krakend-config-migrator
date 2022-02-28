@@ -74,6 +74,10 @@ var rules = [][]string{
 	// github.com/devopsfaith/krakend-ratelimit/rate/proxy
 	// github.com/devopsfaith/krakend-circuitbreaker/eapache
 
+	// Lura changes
+	{"headers_to_pass", "input_headers"},
+	{"querystring_params", "input_query_strings"},
+
 	// Deprecations
 	{"whitelist", "allow"},
 	{"blacklist", "deny"},
