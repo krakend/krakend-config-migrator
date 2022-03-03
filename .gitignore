@@ -1,2 +1,3 @@
 dist/
 target*
+cmd/krakend-config-migrator/krakend-config-migrator
