@@ -10,7 +10,7 @@ You can migrate KrakenD configurations with thousands of files/templates in seco
 Make sure to review the changes after the migration.
 
 ## Usage
-Download the binary for your platform or build the source code (see below). From the folder where the binary is, execute it:
+[Download the binary for your platform](https://github.com/devopsfaith/krakend-config-migrator/releases) or build the source code (see below). From the folder where the binary is, execute it:
 
     $ ./krakend-config-migrator -h
     Usage of ./krakend-config-migrator:
