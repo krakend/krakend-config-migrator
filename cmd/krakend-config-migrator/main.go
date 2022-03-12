@@ -63,7 +63,7 @@ var rules = [][]string{
 	{"github.com/devopsfaith/krakend-martian", "modifier/martian"},
 
 	// Enterprise
-	{"github_com/devopsfaith/krakend-swagger", "generator/openapi"},
+	{"github_com/devopsfaith/krakend-swagger", "documentation/openapi"},
 	{"github_com/devopsfaith/krakend-apikeys", "auth/api-keys"},
 	{"github_com/devopsfaith/krakend-instana", "telemetry/instana"},
 	{"github.com/devopsfaith/krakend-websocket", "websocket"},
@@ -76,6 +76,15 @@ var rules = [][]string{
 	// Lura changes
 	{"headers_to_pass", "input_headers"},
 	{"querystring_params", "input_query_strings"},
+
+	// OpenAPI
+	{"termsOfService", "terms_of_service"},
+	{"contact-name", "contact_name"},
+	{"contact-url", "contact_url"},
+	{"contact-email", "contact_email"},
+	{"basePath", "base_path"},
+	{"license-name", "license_name"},
+	{"license-url", "license_url"},
 
 	// Deprecations
 	{"whitelist", "allow"},
