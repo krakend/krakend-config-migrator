@@ -68,6 +68,15 @@ var rules = [][]string{
 	{"github_com/devopsfaith/krakend-instana", "telemetry/instana"},
 	{"github.com/devopsfaith/krakend-websocket", "websocket"},
 
+	{"krakend-basic-auth", "basic-auth"},
+	{"krakend-jwk-aggregator", "jwk-aggregator"},
+	{"krakend-redirect", "no-redirect"},
+	{"krakend-dumper", "http-logger"},
+	{"krakend-geoip", "geoip"},
+	{"krakend-ipfilter", "ip-filter"},
+	{"krakend-static-live", "static-filesystem"},
+	{"krakend-wildcard", "wildcard"},
+
 	// Unused by CE:
 	// github.com/devopsfaith/krakend-ratelimit/rate/router
 	// github.com/devopsfaith/krakend-ratelimit/rate/proxy
