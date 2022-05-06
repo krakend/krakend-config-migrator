@@ -124,9 +124,9 @@ var rules = [][]string{
 	{"TokenKeys", "token_keys"},
 
 	// Upgrade version and add $schema:
-	{`"version": 2`, `"$id": "https://www.krakend.io/schema/v3.json",
+	{`"version": 2`, `"$schema": "https://www.krakend.io/schema/v3.json",
 "version": 3`},
-	{`"version":2`, `"$id": "https://www.krakend.io/schema/v3.json",
+	{`"version":2`, `"$schema": "https://www.krakend.io/schema/v3.json",
 "version": 3`},
 }
 
